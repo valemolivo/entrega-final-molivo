@@ -1,0 +1,16 @@
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-nav {
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li a {
+    color: green;
+}
