@@ -1,14 +1,13 @@
-import React from 'react'
-import carrito from './assets/carrito.png'
 import './CartWidget.css'
 
 const CartWidget = () => {
+    const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png";
     return (
-        <div className='cart-widget'>
-            <img src={carrito} alt="cart-widget" />
-            0
-        </div>
-        )
+    <div>
+        <img className='imgCarrito' src ={imgCarrito} alt="Carrito" />
+        <strong>3</strong>
+    </div>
+    )
 }
 
 export default CartWidget
